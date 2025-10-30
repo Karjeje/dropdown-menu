@@ -1,8 +1,11 @@
 {
-  "name": "webpack-template",
+  "name": "simple-dropdown",
   "version": "1.0.0",
   "description": "A lightweight, reusable dropdown menu component.",
   "main": "dist/bundle.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
