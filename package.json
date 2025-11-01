@@ -1,5 +1,5 @@
 {
-  "name": "simple-dropdown",
+  "name": "karjeje-simple-dropdown",
   "version": "1.0.0",
   "description": "A lightweight, reusable dropdown menu component.",
   "main": "dist/app.bundle.js",
