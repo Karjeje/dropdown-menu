@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "A lightweight, reusable dropdown menu component.",
   "main": "dist/app.bundle.js",
-  "type": "module",
   "files": [
     "dist"
   ],
