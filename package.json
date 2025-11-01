@@ -2,7 +2,8 @@
   "name": "simple-dropdown",
   "version": "1.0.0",
   "description": "A lightweight, reusable dropdown menu component.",
-  "main": "dist/bundle.js",
+  "main": "dist/app.bundle.js",
+  "type": "module",
   "files": [
     "dist"
   ],
@@ -14,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Karjeje/webpack-template.git"
+    "url": "git+https://github.com/Karjeje/dropdown-menu.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Karjeje/webpack-template/issues"
+    "url": "https://github.com/Karjeje/dropdown-menu/issues"
   },
-  "homepage": "https://github.com/Karjeje/webpack-template#readme",
+  "homepage": "https://github.com/Karjeje/dropdown-menu#readme",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "eslint": "^9.38.0",
