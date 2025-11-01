@@ -3,8 +3,8 @@ import "./styles.css";
 console.log("Init");
 
 export function setupDropdown(dropdownContainer) {
-  const button = document.querySelector(".menubtn");
-  const dropdown = document.querySelector(".dropdown");
+  const button = dropdownContainer.querySelector(".menubtn");
+  const dropdown = dropdownContainer.querySelector(".dropdown");
 
   button.addEventListener("click", () => {
     dropdown.classList.toggle("invisible");
